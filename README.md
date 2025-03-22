@@ -6,15 +6,15 @@ A full pipeline project for analyzing Tucson-based pizza restaurant reviews from
 
 ## ✨ Project Pipeline Overview
 
-1. **EDA (`eda.py`)** - Review structure & visualization  
-2. **Aspect-Based Sentiment Analysis (`bert_sentiment_analysis.py`)** - Deep review analysis with BERT  
-3. **Summary Generation using Claude (`claude_summarization.py`)** - Restaurant-level summary writing
+1. **EDA (`eda.ipynb`)** - Review structure & visualization  
+2. **Aspect-Based Sentiment Analysis (`bert_sentiment_analysis.ipynb`)** - Deep review analysis with BERT  
+3. **Summary Generation using Claude (`claude_summarization.ipynb`)** - Restaurant-level summary writing
 
 ---
 
 ## 📊 1. Exploratory Data Analysis (EDA)
 
-**File:** `eda.py`
+**File:** `eda.ipynb`
 
 - **Data Source:** Yelp Open Dataset (filtered for Tucson pizza restaurants)
 - **Objectives:**
@@ -33,7 +33,7 @@ A full pipeline project for analyzing Tucson-based pizza restaurant reviews from
 
 ## 🤖 2. Aspect-Based Sentiment Analysis with BERT
 
-**File:** `bert_sentiment_analysis.py`
+**File:** `bert_sentiment_analysis.ipynb`
 
 - **Model:** [`nlptown/bert-base-multilingual-uncased-sentiment`](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment)
 - **Goal:** Analyze each business based on 10 pizza-related aspects
@@ -56,7 +56,7 @@ taste, crust, sauce, cheese, hygiene, delivery speed, service, price, environmen
 
 ## 🧠 3. Summary Generation with Claude (Amazon Bedrock)
 
-**File:** `claude_summarization.py`
+**File:** `claude_summarization.ipynb`
 
 - **Service:** Claude 3 Sonnet via Amazon Bedrock
 - **Objective:** Generate a short, engaging, and informative summary per business based on aspect ratings
