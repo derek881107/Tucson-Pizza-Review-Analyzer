@@ -2,6 +2,8 @@
 
 A full pipeline project for analyzing Tucson-based pizza restaurant reviews from Yelp using advanced NLP techniques. This solution covers Exploratory Data Analysis (EDA), Aspect-Based Sentiment Analysis using BERT, and automated summary generation using Claude via Amazon Bedrock.
 
+A complete project overview: https://ugc.production.linktr.ee/ed6a0fce-8b3d-41f1-beca-3b6b4a622459_CIS-509---Final-Project.pdf
+
 ---
 
 ## ✨ Project Pipeline Overview
