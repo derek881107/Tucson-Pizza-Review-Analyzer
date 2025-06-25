@@ -60,7 +60,7 @@ taste, crust, sauce, cheese, hygiene, delivery speed, service, price, environmen
 
 **File:** `claude_summarization.ipynb`
 
-- **Service:** Claude 3 Sonnet via AWS Sagemaker
+- **Service:** Claude 3 Sonnet via Amazon Bedrock
 - **Objective:** Generate a short, engaging, and informative summary per business based on aspect ratings
 
 ### ✏️ What the summary includes:
